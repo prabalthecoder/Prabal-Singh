@@ -9,12 +9,12 @@ def sub(num1, num2):
 
 
 def mul(num1, num2):
-    num3 = num1 ** num2
+    num3 = num1 * num2
     print("Mul of {0}, {1} is : {2}".format(num1, num2, num3))
 
 
 def div(num1, num2):
-    num3 = num1 // num2
+    num3 = num1 / num2
     print("div of {0}, {1} is : {2}".format(num1, num2, num3))
 
 

@@ -4,11 +4,11 @@ class Base:
         print("I am from base")
 
 
-class Derived:
+class Derived(Base): #Inheriting Base in Derived class
 
     def display(self):
         print("I am for derived")
-        Base().display()
+        super().display()
 
 
 def main():

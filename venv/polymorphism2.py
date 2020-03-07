@@ -22,5 +22,6 @@ def main():
         obj.states()
         obj.currency()
 
+
 if __name__ == "__main__":
     main()
